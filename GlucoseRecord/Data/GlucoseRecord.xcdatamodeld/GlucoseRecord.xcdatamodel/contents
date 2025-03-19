@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22D68" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FoodImpact" representedClassName="FoodImpact" syncable="YES" codeGenerationType="class">
+        <attribute name="food" attributeType="String" defaultValueString="None"/>
+        <attribute name="impact" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Record" representedClassName="Record" syncable="YES" codeGenerationType="class">
+        <attribute name="food" attributeType="String" defaultValueString="None"/>
+        <attribute name="glucoseLevel" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="impact" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="mealType" attributeType="String" defaultValueString="Snack"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="timestamp" attributeType="Date" defaultDateTimeInterval="712301160" usesScalarValueType="NO"/>
+    </entity>
+</model>
